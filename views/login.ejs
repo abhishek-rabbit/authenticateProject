@@ -1,0 +1,26 @@
+<%- include('./partials/header.ejs'); -%>
+
+    <div class="container" >       
+        <div class="row">
+            <%- include('./partials/messages.ejs'); -%>
+            <div class="col-4"></div>
+            <div class="col-4" >
+                <h1 class="d-flex justify-content-center">Login</h1>
+                <br>
+                <form action="" method="post">
+                    <input type="text" placeholder="Enter Email Address" name="email" class="form-control" /><br>
+                    <input type="password" placeholder="Enter Password" name="password" class="form-control" /><br>
+                    <a href="" class="d-flex  float-right">Forget Password</a><br><br>
+                    <input type="submit" class="btn btn-md btn-danger" value="Login" style="width: 100%;" />
+                </form>
+                <br>
+                <a href=""  class="btn btn-md btn-danger"  style="width: 100%;" >Sign Up</a>
+            </div>
+            <div class="col-4">
+                
+            </div>
+        </div>
+
+    </div>
+
+   <%- include('./partials/footer.ejs'); -%>
