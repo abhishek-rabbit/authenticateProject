@@ -3,7 +3,7 @@ const bodyParser=require('body-parser');
 const flash=require('connect-flash');
 const session=require('express-session');
 const passport=require('passport');
-const LocalStrategy=require('passport-local').Strategy();
+const LocalStrategy=require('passport-local').Strategy;
 const authenticateRoute=require('./routes/authenticateRoute.js');
 
 const UserModel=require('./models/userModel.js');
